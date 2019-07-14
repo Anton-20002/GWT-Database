@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="testGWT:Web exploded DevMode">
+    <output-path>$PROJECT_DIR$/out/artifacts/testGWT_Web_exploded_DevMode</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="testGWT" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="C:/gwt-2.8.2/gwt-servlet.jar" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.14" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="testGWT/web/Web" />
+    </root>
+  </artifact>
+</component>
